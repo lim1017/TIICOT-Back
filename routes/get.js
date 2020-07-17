@@ -19,6 +19,15 @@ module.exports = () => {
       {FirstName: 'Tom',
        LastName:"Lim"    
       },
+      {FirstName: 'Tommy',
+       LastName:"Lim"    
+      },
+      {FirstName: 'Bobby',
+       LastName:"Mountain"    
+      },
+      {FirstName: 'Super',
+       LastName:"Bob"    
+      },
     ]);
   });
 
