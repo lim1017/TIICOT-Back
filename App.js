@@ -2,14 +2,13 @@ const express = require("express");
 
 const app = express();
 
-const url = require("./routes/url");
+const get = require("./routes/get");
 const ping = require("./routes/ping");
-const post = require("./routes/post");
 
 
-app.use("/api", url());
+app.use("/api", get());
 app.use("/api", ping());
-app.use("/api", post());
+
 
 
 
